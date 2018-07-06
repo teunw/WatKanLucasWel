@@ -8,7 +8,7 @@ function nextInt() {
 
 function otherBackground() {
 	var random = nextInt();
-	document.body.style.background = "url('/img/" + random + ".jpeg') no-repeat center center fixed";
+	document.body.style.background = "url('./img/" + random + ".jpeg') no-repeat center center fixed";
 }
 window.onload = function () {
 	otherBackground();
